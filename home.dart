@@ -32,7 +32,7 @@ musicstop() {
 
 myImage() {
   var url =
-      'https://lh3.googleusercontent.com/proxy/q5B16vJ8nlrMAcUmBDmRzNVH-uWUSXBvpCgCTDCUw3JxIjms-nEvSkD5IXdCy5B2YnTr1a_W6_1wgH9kkJ8EGm1458llvO4Cr5xOBnTctIJJCT5lGmgsaTL3fUFG3CffumXKo1A';
+      'https://lh3.googleusercontent.com/proxy/K5iRgcju8gAILYLHVkWdTGFv6g_zJ8HnXOKLZVTQgy_da2hXlLygdu_3RVshJVbhTVgxScAnTdRUe3us6eNu-UTUrjZ9zeBMfHDqffK5DGa65RBSqIIv7XxSTBJujNX11fczxPg';
   var img = Image.network(url);
   return img;
 }
@@ -68,8 +68,8 @@ MaterialApp MyHome() {
         Container(
           child: myImage(),
           alignment: Alignment.center,
-          width: 400,
-          height: 300,
+          width: 300,
+          height: 200,
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
