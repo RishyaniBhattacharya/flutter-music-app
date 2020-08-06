@@ -30,13 +30,6 @@ musicstop() {
   }
 }
 
-myImage() {
-  var url =
-      'https://lh3.googleusercontent.com/proxy/K5iRgcju8gAILYLHVkWdTGFv6g_zJ8HnXOKLZVTQgy_da2hXlLygdu_3RVshJVbhTVgxScAnTdRUe3us6eNu-UTUrjZ9zeBMfHDqffK5DGa65RBSqIIv7XxSTBJujNX11fczxPg';
-  var img = Image.network(url);
-  return img;
-}
-
 var MyMusic = Icon(
   Icons.music_note,
   color: Colors.grey.shade900,
@@ -66,7 +59,7 @@ MaterialApp MyHome() {
           ),
         ),
         Container(
-          child: myImage(),
+          child: Image.asset("images/khairiyat.jpg"),
           alignment: Alignment.center,
           width: 300,
           height: 200,
